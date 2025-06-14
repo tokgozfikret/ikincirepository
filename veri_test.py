@@ -33,7 +33,7 @@ def seans_bilgilerini_getir(ogrenci_id):
             print(f"Notlar: {seans[4]}")
             print("---")
     else:
-        print("Bu öğrenci için seans bulunamadı.")
+        print("Bu öğrenci için hiçbir seans bulunamadı.")
 
 if __name__ == "__main__":
     # Örnek Veri Testi
