@@ -8,7 +8,7 @@ def ogrenci_bilgilerini_getir(ogrenci_id):
     conn.close()
 
     if ogrenci:
-        print("Öğrenci Bilgileri Giriniz:")
+        print("Öğrenci Bilgilerinizi giriniz Giriniz:")
         print(f"ID: {ogrenci[0]}")
         print(f"Ad: {ogrenci[1]}")
         print(f"Soyad: {ogrenci[2]}")
