@@ -15,7 +15,7 @@ def ogrenci_bilgilerini_getir(ogrenci_id):
         print(f"Yaş: {ogrenci[3]}")
         print(f"Hedefleriniz: {ogrenci[4]}")
     else:
-        print("Öğrenci bulunamadı.")
+        print("Öğrenci bulunamadı kardesim.")
 
 def seans_bilgilerini_getir(ogrenci_id):
     conn = sqlite3.connect('kocluk_takip.db')
